@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>1-Planimetrías - María-josé - Taller Fabricación 2021</title>
+  <title>2-Mecanizado CNC - María-josé - Taller Fabricación 2021</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://maria-joset.github.io/favicon.png">
@@ -94,11 +94,11 @@
       <a href="https://maria-joset.github.io/docs/post-1/">0-Fabricación Digital</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://maria-joset.github.io/docs/post-2-planimetr%C3%ADa/">1-Planimetrías</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://maria-joset.github.io/docs/post-3-cnc/">2-Mecanizado CNC</a>
     </li>
     
@@ -109,21 +109,30 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">1-Planimetrías</h1>
+<h1 class="title">2-Mecanizado CNC</h1>
 <div class="content ">
   <!-- raw HTML omitted -->
 <h1 id="a-nametopaencargo-2"><!-- raw HTML omitted --><!-- raw HTML omitted -->Encargo 2:</h1>
 <hr>
-<p><img src="/img/Eameses2.jpg" alt="Couple2"></p>
-<p>En este ejercicio se nos propuso trabajar a partir de la Silla Eames como en el tutorial, aclaro que no trabajé con ese mismo modelo, pero si usé uno similar -el cual no tiene nombre espécifico desde donde los descargué, pero adjunto el link al final del post-. De todas maneras, creo necesario poner en contexto el modelo señalado ya que es bastante interesante a la primera vista.</p>
-<h2 id="ray--charles-eames">Ray &amp; Charles Eames</h2>
-<p>Esta singular pareja trajo una nueva mirada al diseño de objetos en la década de los 40'. Ambos con formaciones de distintas áreas, él arquitecto y ella se formó como Pintora. Ambos eran creativos que lograban desafiar y salir de sus áreas convencionales para incursionar en las películas, en diseño, construcción, fotografía e incluso crearon jueguetes. Así pusieron todo su talento y creatividad para moldear objetos existentes y darles un giro inesperado. Siendo unos de los diseñadores más importantes del siglo 20, al diseñar y producir objetos de madera con curvas, de manera masiva.</p>
-<p><img src="/img/planimetria/Eameses.jpg" alt="Couple"></p>
-<h2 id="silla-eames-lcw">Silla Eames LCW</h2>
-<p>Años y varios intentos para poder lograr la silla deseada se tomó la pareja. La silla construida por la pareja, está originalmente hecha de madera laminada -&ldquo;silla Plywood&rdquo;- y moldeada (luego de intentos fallidos) se logró la forma deseada. Pero esta no fue la única pieza icónica de la pareja, ya que al pasar los años diseñaron más objetos. Como &ldquo;The Eames Lounge Chair &amp; Ottoman&rdquo; en 1956 que hasta la actulidad se sigue vendiendo*. Incluso en 1949, construyeron su propia casa en California, la cual habitaron por el resto de sus vidas.</p>
-<p>La silla fue presentada por primera vez en el MoMa en 1946. La exposición de dos semanas incluía imagenes y fotografías de la silla en 3D en partes. Como también gráficas que explicaban el proceso.
-El objetivo era poder crear sillas durables, de buen material y a un precio razonable que estuvieran de la mano con las posturas naturales de las personas al momento de sentarse.</p>
-<p>*Actualmente los objetos diseñados por la pareja Eames son producidos por Herman Miller Inc. en Estados Unidos y Vitra International en Europa.</p>
+<p>En el siguiente encargo, se nos pidió trabajar a partir de un producto en específico: silla Fresia. Para este ejercicio se empleó como guía los tutoriales dispuestos para luego reescribir y redactar los diversos pasos. A continuación se presentará una contextualización e información del mecanizado CNC como también imágenes de apoyo que muestren este ejercicio llevado a cabo fuera de lo digital.</p>
+<h2 id="un-poco-de-historia-e-información">Un poco de historia e información</h2>
+<p>La sigla CNC resume &ldquo;control numérico por computadora&rdquo; lo que implica una función de mecanizado que será determinada por un programa que le dicte (controle) ciertos movimientos de herramientas o máquina a realizar.
+Recordar el incio de las computadora con le segunda guerra mundial es crucial para tener una idea de cuánto se ha avanzado tecnológicamente para poder lograr el uso que actualmente se tiene con máquinas cnc guiadas por un computador -hoy de dimensiones más pequeñas de las vistas a mitad del siglo XX-.</p>
+<p>El ingeniero John Parsons, resulta personaje clave para la existencia de CNC. Sus trabajos e intentos lo llevaron a generar un sistema de cinta perforada que entregaba coordenadas de posición para controlar la máquina. Con los años, este sistema fue tomado por las Fuerzas Aéreas de Estados Unidos.</p>
+<p><img src="/img/mecanizado/cinta.jpg" alt="Sistema de cinta"></p>
+<p>Luego, el origen de CNC nos lleva hasta los años 50 y al MIT, lugar donde se logró automatizar por primera vez una fresadora. Las primeras máquinas de CNC trabajaban bajo herramientas que ya existían y que se modficaron con motores que movían controles que seguían puntos -agujeros- en el sistema de cinta perforada de Parsons.</p>
+<p>Las máquinas CNC logra realizar movimientos simples como también complejos, gracias al control de movimientos que implica regular la posición y velocidad de los motores que activan los ejes de las máquinas. Así se le da órdenes a las máquinas para que ejecuten actividades como hacer una ranura en la madera, bajorrelieves, etc.</p>
+<h3 id="funcionamiento">Funcionamiento</h3>
+<p>Tal como se explicó brevemente en la sección anterior, para que CNC funcione, se necesita un computador que controle los movimientos de la máquina elegida para realizar el trabajo. Se relacionan a través de un programa que los comunique, software propio. El controlador de CNC trabaja y se mueve en base a motores (servomotores y motores paso a paso), y también de componenetes de accionamiento que realizan desplazamientos en los ejes de la máquina para que esta ejecute los movimientos ingresados en el computador (programados).</p>
+<p>A continuación se presenta un diagrama del funcionamiento de una máquina CNC típica, provista de servomotores.</p>
+<p><img src="/img/mecanizado/diagrama.gif" alt="diagrama">
+Tal como se observa, la máquina CNC se compone de 6 elementos:
+:: Dispositivo de entrada
+:: Controlador
+:: Máquina herramienta
+:: Sistema de accionamiento
+:: Dispositivo de realimentación (servomotores)
+:: Monitor</p>
 <h2 id="imágenes">Imágenes</h2>
 <p>A continuación se presentan las imágenes editadas con Adobe Illustrator para este ejercicio.</p>
 <p><img src="/img/planimetria/p1.png" alt="Planimetria_1">
@@ -341,13 +350,10 @@ El objetivo era poder crear sillas durables, de buen material y a un precio razo
     <source src="/img/videoeames.mp4"  type="video/mp4">
     </video>
 </div>
-<p>Documental editado por Fundación Arquia</p>
 <hr>
-<h3 id="links-de-referencia">Links de referencia</h3>
-<p><a href="https://www.eamesoffice.com/eames-office/charles-and-ray/">https://www.eamesoffice.com/eames-office/charles-and-ray/</a>
-<a href="https://www.vitra.com/es-es/about-vitra/who-we-are/designer/details/charles-ray-eames">https://www.vitra.com/es-es/about-vitra/who-we-are/designer/details/charles-ray-eames</a>
-<a href="http://blog.enola.es/wedeco-admirando-a-los-eames/">http://blog.enola.es/wedeco-admirando-a-los-eames/</a></p>
-<p>Imágenes exposición en  London&rsquo;s Barbican Centre: <a href="https://www.dezeen.com/2015/10/20/the-world-of-charles-and-ray-eames-exhibition-barbican-london-uk/">https://www.dezeen.com/2015/10/20/the-world-of-charles-and-ray-eames-exhibition-barbican-london-uk/</a></p>
+<h3 id="fuentes">Fuentes</h3>
+<p><a href="https://cncsur.cl/cnc-la-historia-del-control-numerico/">https://cncsur.cl/cnc-la-historia-del-control-numerico/</a>
+<a href="https://wiki.ead.pucv.cl/Introducci%C3%B3n_al_control_num%C3%A9rico_computarizado_(CNC)">https://wiki.ead.pucv.cl/Introducci%C3%B3n_al_control_num%C3%A9rico_computarizado_(CNC)</a></p>
 <p><a href="#top">[Volver Arriba]</a></p>
 
 </div>
