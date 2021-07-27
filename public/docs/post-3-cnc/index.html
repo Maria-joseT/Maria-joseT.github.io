@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>2-Mecanizado CNC - María-josé - Taller Fabricación 2021</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://maria-joset.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a32658f2eedb9bb852f8513925cb445e40633983f1ff54349b037dd04eafa2fa.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://maria-joset.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://maria-joset.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://maria-joset.github.io/docs/post-1/">0-Fabricación Digital</a>
+    </li>
+    
+    <li class="">
+      <a href="https://maria-joset.github.io/docs/post-2-planimetr%C3%ADa/">1-Planimetrías</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://maria-joset.github.io/docs/post-3-cnc/">2-Mecanizado CNC</a>
+    </li>
+    
+    <li class="">
+      <a href="https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/">3 - Mecanizado 2.5 Ejes</a>
+    </li>
+    
+    <li class="">
+      <a href="https://maria-joset.github.io/docs/post-5-simulaci%C3%B3n-y-dise%C3%B1o-generativo/">4-Simulación y Diseño Generativo</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">2-Mecanizado CNC</h1>
+<div class="content ">
+  <!-- raw HTML omitted -->
+<h1 id="a-nametopaencargo-3"><!-- raw HTML omitted --><!-- raw HTML omitted -->Encargo 3:</h1>
+<hr>
+<p>En el siguiente encargo, se nos pidió trabajar a partir de un producto en específico: silla Fresia. Para este ejercicio se empleó como guía los tutoriales dispuestos para luego reescribir y redactar los diversos pasos. A continuación se presentará una contextualización e información del mecanizado CNC como también imágenes de apoyo que muestren este ejercicio llevado a cabo fuera de lo digital.</p>
+<h2 id="un-poco-de-historia-e-información">Un poco de historia e información</h2>
+<p>La sigla CNC resume <strong>&ldquo;control numérico por computadora&rdquo;</strong> lo que implica una función de mecanizado que será determinada por un programa que le dicte (controle) ciertos movimientos de herramientas o máquina a realizar.
+Recordar el incio de las computadora con le segunda guerra mundial es crucial para tener una idea de cuánto se ha avanzado tecnológicamente para poder lograr el uso que actualmente se tiene con máquinas cnc guiadas por un computador -hoy de dimensiones más pequeñas de las vistas a mitad del siglo XX-.</p>
+<p>El ingeniero John Parsons, resulta personaje clave para la existencia de CNC. Sus trabajos e intentos lo llevaron a generar un sistema de cinta perforada que entregaba coordenadas de posición para controlar la máquina. Con los años, este sistema fue tomado por las Fuerzas Aéreas de Estados Unidos.</p>
+<p><img src="/img/mecanizado/cinta.jpg" alt="Sistema de cinta"></p>
+<p>Luego, el origen de CNC nos lleva hasta los años 50 y al MIT, lugar donde se logró automatizar por primera vez una fresadora. Las primeras máquinas de CNC trabajaban bajo herramientas que ya existían y que se modficaron con motores que movían controles que seguían puntos -agujeros- en el sistema de cinta perforada de Parsons.</p>
+<p>Las máquinas CNC logra realizar movimientos simples como también complejos, gracias al control de movimientos que implica regular la posición y velocidad de los motores que activan los ejes de las máquinas. Así se le da órdenes a las máquinas para que ejecuten actividades como hacer una ranura en la madera, bajorrelieves, etc.</p>
+<h3 id="funcionamiento">Funcionamiento</h3>
+<p>Tal como se explicó brevemente en la sección anterior, para que CNC funcione, se necesita un computador que controle los movimientos de la máquina elegida para realizar el trabajo. Se relacionan a través de un programa que los comunique, software propio. El controlador de CNC trabaja y se mueve en base a motores (servomotores y motores paso a paso), y también de componenetes de accionamiento que realizan desplazamientos en los ejes de la máquina para que esta ejecute los movimientos ingresados en el computador (programados).</p>
+<p>A continuación se presenta un diagrama del funcionamiento de una máquina CNC típica, provista de servomotores.</p>
+<p><img src="/img/mecanizado/diagrama.gif" alt="diagrama"></p>
+<p>Tal como se observa, la máquina CNC se compone de 6 elementos:</p>
+<ul>
+<li>Dispositivo de entrada</li>
+<li>Controlador</li>
+<li>Máquina herramienta</li>
+<li>Sistema de accionamiento</li>
+<li>Dispositivo de realimentación (servomotores)</li>
+<li>Monitor</li>
+</ul>
+<hr>
+<h2 id="procedimiento-silla-fresia">Procedimiento Silla Fresia</h2>
+<h4 id="paso-1">Paso 1</h4>
+<p>Como primer paso, debemos generar una tabla -plancha- de trabajo a través de Sketch y generando un rectángulo de 1220 mm x 1220 mm. Luego, lo extruímos para que tenga un grosor de 15 mm.</p>
+<p><img src="/img/mecanizado/1.png" alt="paso1"></p>
+<h4 id="paso-2">Paso 2</h4>
+<p>Con la tecla <em>Move/copy</em> copiamos pieza por pieza, las partes de la silla y las fijamos en la plancha de trabajo. Para esto, las debemos alienar, dejándolas todas en la <strong>misma dirección</strong> desde el plano seleccionado.
+<em>Se selecciona la cara que no tiene calado de la pieza y se alinea con la plancha. De esta manera todas estarán en la misma dirección</em></p>
+<p><img src="/img/mecanizado/2.png" alt="paso2"></p>
+<p>Repetimos este paso con todas las piezas y las acomodamos.</p>
+<h4 id="paso-3">Paso 3</h4>
+<p>Ya que tenemos las piezas en la plancha, dejamos sin visualizar la plancha, y cambiamos del modoo Design a Manufacture. En esta sección vamos a <em>Setup</em> para configurar la herramienta a usar: Autodesk CNC de 3 ejes genérica.</p>
+<p>Luego, debemos seleccionar la plancha <em>-con stock/from solid-</em> y las piezas con las que trabajaremos para cortar. La orientación del corte debe ser en eje Z y plano XY, también indicamos que el punto de origen de la máquina es el punto izquierdo superior de nuestra plancha.</p>
+<h4 id="paso-4">Paso 4</h4>
+<p>Realizamos <em>2d contour</em> en las piezas, para esto seleccionamos los contornos inferiores de los orificios de cada pieza. Seleccionamos la máquina que se mencionó en paso 3.</p>
+<p><img src="/img/mecanizado/3.png" alt="paso3"></p>
+<p><strong>Como nuestra máquina no alcanza de una sola vez a perforar la plancha, debemos editar nuestra profundidad en <em>passes/Multiple Depths</em> y cambiamos el Maximum Roughing a 3 mm. La fresa generará un paso de 5 veces por el  mismo lugar para abarcar la profundidad</strong></p>
+<h4 id="paso-5">Paso 5</h4>
+<p>Realizamos <em>2D Pocket Countour</em> para esto seleccionamos las partes de las piezas correspondientes y nos aseguramos que la máquina elegida sea la misma que la anterior.</p>
+<p><img src="/img/mecanizado/4.png" alt="paso4"></p>
+<p><strong>Debemos fijarnos en la misma acotación señalada en el paso anterior, sobre la profundidad</strong></p>
+<h4 id="paso-6">Paso 6</h4>
+<p>Nuevamente usamos <em>2D Contour</em>, pero de manera externa, es decir, el contorno de cada pieza.</p>
+<p><img src="/img/mecanizado/5.png" alt="paso5"></p>
+<p>El cuidado que se debe tener es de fijar bien los Tabs de las piezas, puesto que sin estos, las piezas que se cortan al inicio podrían moverse y generarían probelmas con las siguientes. Agregamos <em>Tabs</em> de altura 3 mm y una amplia distancia entre estos de 350 mm.</p>
+<h6 id="así-se-ven-los-pasos-entregados-en-las-patas-traseras-de-la-silla">Así se ven los pasos entregados, en las patas traseras de la silla:</h6>
+<p><img src="/img/mecanizado/6.png" alt="paso6"></p>
+<h4 id="asiento">Asiento</h4>
+<p>Para trabajar con el asiento debemos modificar el paso 1. Puesto que la plancha que generaremos es de 9 mm. Las otras dimensiones de la plancha deben corresponder a un contorno holgado de este, fijándonos en la dirección del eje Z. Luego trabajamos de la misma manera en base a los paso 2 y 3.</p>
+<p>Luego, con <em>2D Tracer</em> nos fijamos en las curvas internas de esta pieza. Modificamos Stock to Leave para que sea de 4.5 mm, de esta manera, la fresa no completa el trazado en la tabla, lo que la hace maleable.</p>
+<h2 id="imágenes">Imágenes</h2>
+<p>A continuación se presentan las imágenes editadas con Adobe Illustrator para este ejercicio, en formato planimetría.</p>
+<p>
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planenc2//p1.png');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planenc2//p1.png" alt="P1" />
+				    </div>
+			      <figcaption>
+		          <p>P1</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/planenc2//p1.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planenc2//p2.png');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planenc2//p2.png" alt="P2" />
+				    </div>
+			      <figcaption>
+		          <p>P2</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/planenc2//p2.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planenc2//p3.png');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planenc2//p3.png" alt="P3" />
+				    </div>
+			      <figcaption>
+		          <p>P3</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/planenc2//p3.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planenc2//p4.png');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planenc2//p4.png" alt="P4" />
+				    </div>
+			      <figcaption>
+		          <p>P4</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/planenc2//p4.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+<div>
+    <iframe 
+    src='https://alumnos4792.autodesk360.com/shares/public/SH56a43QTfd62c1cd96868ff56253a97ff74?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<hr>
+<h3 id="galería-ejemplos">Galería ejemplos</h3>
+<p>
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/mecgaleria//calendariocnc.jpg');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/mecgaleria//calendariocnc.jpg" alt="Calendariocnc" />
+				    </div>
+			      <figcaption>
+		          <p>Calendariocnc</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/mecgaleria//calendariocnc.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/mecgaleria//e2cnc.jpg');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/mecgaleria//e2cnc.jpg" alt="E2cnc" />
+				    </div>
+			      <figcaption>
+		          <p>E2cnc</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/mecgaleria//e2cnc.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/mecgaleria//e3cnc.jpg');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/mecgaleria//e3cnc.jpg" alt="E3cnc" />
+				    </div>
+			      <figcaption>
+		          <p>E3cnc</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/mecgaleria//e3cnc.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/mecgaleria//e4cnc.jpg');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/mecgaleria//e4cnc.jpg" alt="E4cnc" />
+				    </div>
+			      <figcaption>
+		          <p>E4cnc</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/mecgaleria//e4cnc.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/mecgaleria//ecnc.jpg');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/mecgaleria//ecnc.jpg" alt="Ecnc" />
+				    </div>
+			      <figcaption>
+		          <p>Ecnc</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/mecgaleria//ecnc.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/mecgaleria//mcnc.jpg');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/mecgaleria//mcnc.jpg" alt="Mcnc" />
+				    </div>
+			      <figcaption>
+		          <p>Mcnc</p>
+			      </figcaption>
+				    <a href="https://maria-joset.github.io//img/mecgaleria//mcnc.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+</p>
+<hr>
+<h3 id="fuentes">Fuentes</h3>
+<p><a href="https://cncsur.cl/cnc-la-historia-del-control-numerico/">cncsur</a></p>
+<p><a href="https://wiki.ead.pucv.cl/Introducci%C3%B3n_al_control_num%C3%A9rico_computarizado_(CNC)">https://wiki.ead.pucv.cl/Introducci%C3%B3n_al_control_num%C3%A9rico_computarizado_(CNC)</a></p>
+<p><a href="#top">[Volver Arriba]</a></p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
