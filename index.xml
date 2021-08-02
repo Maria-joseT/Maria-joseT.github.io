@@ -34,5 +34,23 @@
       <description>Encargo 3 Mecanizado CNC</description>
     </item>
     
+    <item>
+      <title>3 - Mecanizado 2.5 Ejes</title>
+      <link>https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/</guid>
+      <description>Encargo 3 - Mecanizado 2.5 Ejes</description>
+    </item>
+    
+    <item>
+      <title>4-Simulación y Diseño Generativo</title>
+      <link>https://maria-joset.github.io/docs/post-5-simulaci%C3%B3n-y-dise%C3%B1o-generativo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-5-simulaci%C3%B3n-y-dise%C3%B1o-generativo/</guid>
+      <description>Encargo 4 Simulación y Diseño Generativo</description>
+    </item>
+    
   </channel>
 </rss>
