@@ -103,7 +103,7 @@
     </li>
     
     <li class="">
-      <a href="https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/">3 - Mecanizado 2.5 Ejes</a>
+      <a href="https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/">3-Mecanizado 2.5 Ejes</a>
     </li>
     
     <li class="active ">
@@ -135,31 +135,11 @@
     <source src="/img/Dise%c3%b1ogenerativo.mp4"  type="video/mp4">
     </video>
 </div>
-<h2 id="simulación-ge-bracket">Simulación GE Bracket</h2>
-<h3 id="pasos">Pasos</h3>
-<p><img src="/img/Dise%C3%B1oysimulacion/paso1.jpg" alt="busqueda">
-<img src="/img/Dise%C3%B1oysimulacion/paso1.1.jpg" alt="paso1.1">
-<img src="/img/Dise%C3%B1oysimulacion/paso1.2.jpg" alt="paso1.2">
-<img src="/img/Dise%C3%B1oysimulacion/paso1.3.jpg" alt="paso1.3"></p>
-<p><img src="/img/Dise%C3%B1oysimulacion/paso2.jpg" alt="paso2">
-<img src="/img/Dise%C3%B1oysimulacion/paso2.1.jpg" alt="paso2.1">
-<img src="/img/Dise%C3%B1oysimulacion/paso2.2.jpg" alt="paso2.2">
-<img src="/img/Dise%C3%B1oysimulacion/paso2.3.jpg" alt="paso2.3"></p>
-<p><img src="/img/Dise%C3%B1oysimulacion/paso3.jpg" alt="paso3">
-<img src="/img/Dise%C3%B1oysimulacion/paso3.1.jpg" alt="paso3.1">
-<img src="/img/Dise%C3%B1oysimulacion/paso3.2.jpg" alt="paso3.2">
-<img src="/img/Dise%C3%B1oysimulacion/paso3.3.jpg" alt="paso3.3">
-<img src="/img/Dise%C3%B1oysimulacion/paso3.4.jpg" alt="paso3.4"></p>
-<p><img src="/img/Dise%C3%B1oysimulacion/paso3.jpg" alt="paso4">
-<img src="/img/Dise%C3%B1oysimulacion/paso4.1.jpg" alt="paso4.1">
-<img src="/img/Dise%C3%B1oysimulacion/paso4.2.jpg" alt="paso4.2"></p>
-<p><img src="/img/Dise%C3%B1oysimulacion/paso5.jpg" alt="paso5">
-<img src="/img/Dise%C3%B1oysimulacion/paso5.1.jpg" alt="paso5.1"></p>
-<p>ALA SOLA</p>
-<h3 id="resultado"><em>Resultado</em></h3>
+<h1 id="diseño-generativo-ge-bracket">Diseño Generativo GE Bracket</h1>
+<h3 id="iframe-de-la-pieza-original">IFrame de la pieza original</h3>
 <div>
     <iframe 
-    src='https://alumnos4792.autodesk360.com/shares/public/SH56a43QTfd62c1cd968030532c72a58ec26?mode=embed'
+    src='https://alumnos4792.autodesk360.com/shares/public/SH56a43QTfd62c1cd96806d86b6ec5df82c7?mode=embed'
     width="100%" 
     height="450" 
     allowfullscreen="true" 
@@ -168,131 +148,160 @@
     frameborder="0">
     </iframe>    
 </div>
-<hr>
-<h3 id="galería">Galería</h3>
+<h4 id="paso-1">Paso 1</h4>
+<p>En primer lugar, en nuestro software <strong>Fusion 360</strong> nos ubicamos en la barra izquierda, buscamos <code>Generative Design Example: </code></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso1.jpg" alt="busqueda"></p>
+<p>Seleccionamos el ejemplo con el que trabajaremos en este ejercicio: <strong>GE BRACKET</strong></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso1.1.jpg" alt="paso1.1"></p>
+<p>Se ve de esta manera:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso1.2.jpg" alt="paso1.2"></p>
+<p>Seleccionamos el tab de <code>Diseño Generativo </code></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso1.3.jpg" alt="paso1.3"></p>
+<h4 id="paso-2">Paso 2</h4>
+<p>Como segundo paso, creamos un nuevo estudio. En este, seleccionamos las geometrías que queremos <strong>preservar</strong> (las piezas en azul.)</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso2.jpg" alt="paso2"></p>
+<p>Una vez que las hayamos seleccionado, las piezas que mantendremos quedan en color verde. El software diseñará una pieza alrededor de este.</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso2.1.jpg" alt="paso2.1"></p>
+<p>Ahora tenemos que seleccionar las &ldquo;geometrías obstáculos&rdquo;</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso2.2.jpg" alt="paso2.2"></p>
+<p>Seleccionamos las piezas restantes como obstáculos, quedando estas en rojo:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso2.3.jpg" alt="paso2.3"></p>
+<h4 id="paso-3">Paso 3</h4>
+<p>Seguimos en la misma opción de <code>Diseño Generativo </code>, nos ubicamos en Design Conditions, para seleccionar <code> Structural Designs</code>. Seleccionamos las cuatro caras inferiores de los ejes redondos verdes, que en pasos previos decidimos mantener:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso3.jpg" alt="paso3"></p>
+<p>A modo de ejercicio, designamos cargas y las ajustamos para obtener una fuerza de 100K en el eje (fuerza que soportará):</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso3.1.jpg" alt="paso3.1"></p>
+<p>Minimizamos la masa para definir un <strong>Safety Factor</strong> de 2.00, luego vamos al criterio de <code>Manufactura</code>:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso3.2.jpg" alt="paso3.2"></p>
+<p>Luego seleccionamos los materiales que queremos que Fusion 360 simule, en este caso usaremos <em>Aluminium AISi10MG</em> y <em>Titaniuam 6AI-4V</em> :</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso3.3.jpg" alt="paso3.3"></p>
+<p>Finalmente, le damos click a <code>PRECHECK</code>:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso3.4.jpg" alt="paso3.4"></p>
+<h4 id="paso-4">Paso 4</h4>
+<p>En esta etapa del ejercicio, tenemos que ir a <code>Preview</code> para ver cómo se conformará el objeto:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso4.0.jpg" alt="paso4.0"></p>
+<p>En un inicio luce así:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso4.1.jpg" alt="paso4.1"></p>
+<p>Conforme avanza el proceso se ajusta a la forma que dejamos fija:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso4.2.jpg" alt="paso4.2"></p>
+<h4 id="paso-5">Paso 5</h4>
+<p>Como último paso queremos generar esta simulación, por lo que vamos a <strong>Generate</strong>
+<img src="/img/Dise%C3%B1oysimulacion/paso5.0.jpg" alt="paso5.0"></p>
+<p>Tenemos que esperar a que el servidor de Autodesk reciba la información del diseño, lo mandamos a la nube.</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/paso5.1.jpg" alt="paso5.1"></p>
+<h4 id="resultado">Resultado</h4>
 <p>
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//Eameses.jpg');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//Eameses.jpg" alt="Eameses" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//1.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//1.JPG" alt="1st" />
 				    </div>
 			      <figcaption>
-		          <p>Eameses</p>
+		          <p>1st</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//Eameses.jpg" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//1.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//ex.jpg');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//ex.jpg" alt="Ex" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//2.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//2.JPG" alt="2nd" />
 				    </div>
 			      <figcaption>
-		          <p>Ex</p>
+		          <p>2nd</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//ex.jpg" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//2.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//exsillas.jpg');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//exsillas.jpg" alt="Exsillas" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//3.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//3.JPG" alt="3rd" />
 				    </div>
 			      <figcaption>
-		          <p>Exsillas</p>
+		          <p>3rd</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//exsillas.jpg" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//3.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//exsillas2.jpg');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//exsillas2.jpg" alt="Exsillas2" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//4.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//4.JPG" alt="4th" />
 				    </div>
 			      <figcaption>
-		          <p>Exsillas2</p>
+		          <p>4th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//exsillas2.jpg" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//4.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//p1.png');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//p1.png" alt="P1" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//5.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//5.JPG" alt="5th" />
 				    </div>
 			      <figcaption>
-		          <p>P1</p>
+		          <p>5th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//p1.png" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//5.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//p2.png');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//p2.png" alt="P2" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//6.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//6.JPG" alt="6th" />
 				    </div>
 			      <figcaption>
-		          <p>P2</p>
+		          <p>6th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//p2.png" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//6.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//p3.png');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//p3.png" alt="P3" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//7.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//7.JPG" alt="7th" />
 				    </div>
 			      <figcaption>
-		          <p>P3</p>
+		          <p>7th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//p3.png" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//7.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//p4.png');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//p4.png" alt="P4" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//8.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//8.JPG" alt="8th" />
 				    </div>
 			      <figcaption>
-		          <p>P4</p>
+		          <p>8th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//p4.png" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//8.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//p5.png');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//p5.png" alt="P5" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//9.1.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//9.1.JPG" alt="9th" />
 				    </div>
 			      <figcaption>
-		          <p>P5</p>
+		          <p>9th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//p5.png" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//9.1.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//sillaexpoant.png');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//sillaexpoant.png" alt="Sillaexpoant" />
+				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/galeriapost5//9.JPG');" >
+				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/galeriapost5//9.JPG" alt="9th" />
 				    </div>
 			      <figcaption>
-		          <p>Sillaexpoant</p>
+		          <p>9th</p>
 			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//sillaexpoant.png" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://maria-joset.github.io//img/planimetria//sillaseames.jpg');" >
-				      <img itemprop="thumbnail" src="https://maria-joset.github.io//img/planimetria//sillaseames.jpg" alt="Sillaseames" />
-				    </div>
-			      <figcaption>
-		          <p>Sillaseames</p>
-			      </figcaption>
-				    <a href="https://maria-joset.github.io//img/planimetria//sillaseames.jpg" itemprop="contentUrl"></a>
+				    <a href="https://maria-joset.github.io//img/galeriapost5//9.JPG" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
@@ -357,6 +366,55 @@
     </div>
 </div>
 </p>
+<hr>
+<h2 id="introducción-a-la-simulación">Introducción a la simulación</h2>
+<p>En este siguiente ejercicio trabajamos a partir de archivos de alas entregados para desarrollar este trabajo.</p>
+<h4 id="paso-1-1">Paso 1</h4>
+<p>Este es el modelo de ala de avión, apartado:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/01.jpg" alt="paso1"></p>
+<p>Vamos a la simulación para crear un nuevo estudio:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/02.jpg" alt="paso2"></p>
+<p>Evaluamos el estrés estático de la pieza:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/03.jpg" alt="paso3"></p>
+<h4 id="paso-2-1">Paso 2</h4>
+<p>A continuación hacemos una configuración de definiciones y cambios:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/04.jpg" alt="paso4"></p>
+<p>2.1-Seleccionamos el metal: Acero, este viene por defecto seleccionado.</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/05.jpg" alt="paso5"></p>
+<p>2.2-Vamos a <code>Constrains</code> y seleccionamos las partes fijas</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/06.jpg" alt="paso6"></p>
+<p>Para esto, seleccionamos las piezas que unen el perfil de atraque y el perfil de salida</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/07.jpg" alt="paso7"></p>
+<p>2.3-Vemos las cargas donde se soporta el peso del avión</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/08.jpg" alt="paso8"></p>
+<p>Como <strong>magnitud</strong> de ejemplo y para entender el ejercicio, usamos la magnitud de 1000 Newton.</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/09.jpg" alt="paso9"></p>
+<h4 id="paso-3-1">Paso 3</h4>
+<p>Le damos al Precheck</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/10.jpg" alt="paso10"></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/11.jpg" alt="paso11"></p>
+<p>Ejecutamos el comando <code>Solve</code></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/12.jpg" alt="paso12"></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/13.jpg" alt="paso13"></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/14.jpg" alt="paso14"></p>
+<h4 id="paso-3-2">Paso 3</h4>
+<p>Resultado:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/15.jpg" alt="paso15"></p>
+<p>De esta manera se ven las deformaciones:</p>
+<p><img src="/img/Dise%C3%B1oysimulacion/16.jpg" alt="paso16"></p>
+<p><img src="/img/Dise%C3%B1oysimulacion/17.jpg" alt="paso17"></p>
+<h3 id="iframe-del-ala">IFrame del ala</h3>
+<div>
+    <iframe 
+    src='https://alumnos4792.autodesk360.com/shares/public/SH56a43QTfd62c1cd968030532c72a58ec26?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
 <hr>
 <h3 id="links-de-referencia">Links de referencia</h3>
 <p><a href="https://www.3dnatives.com/es/diseno-generativo-fabricacion-aditiva-170820202/#!">https://www.3dnatives.com/es/diseno-generativo-fabricacion-aditiva-170820202/#!</a>
