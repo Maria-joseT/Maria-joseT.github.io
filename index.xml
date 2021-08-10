@@ -61,5 +61,14 @@
       <description>Encargo 5 Impresión 3D</description>
     </item>
     
+    <item>
+      <title>6-Examen parte 1</title>
+      <link>https://maria-joset.github.io/docs/examen-parte1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/examen-parte1/</guid>
+      <description>Primera parte examen</description>
+    </item>
+    
   </channel>
 </rss>
