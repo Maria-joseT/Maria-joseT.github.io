@@ -62,12 +62,21 @@
     </item>
     
     <item>
-      <title>Complementario 1</title>
+      <title>6- Complementario 1</title>
+      <link>https://maria-joset.github.io/docs/complementario-2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/complementario-2/</guid>
+      <description>Post Complementario 1</description>
+    </item>
+    
+    <item>
+      <title>7- Complementario 2</title>
       <link>https://maria-joset.github.io/docs/complementario-1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://maria-joset.github.io/docs/complementario-1/</guid>
-      <description>Post Complementario 1</description>
+      <description>Post Complementario 2</description>
     </item>
     
     <item>
@@ -76,6 +85,15 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://maria-joset.github.io/docs/examen-parte1/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Entrega 2 - Experimentación N°2 y Molde</title>
+      <link>https://maria-joset.github.io/docs/examen-final/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/examen-final/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
