@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taller de Fabricación 2021 on María-josé - Taller Fabricación 2021</title>
+    <link>https://maria-joset.github.io/docs/</link>
+    <description>Recent content in Taller de Fabricación 2021 on María-josé - Taller Fabricación 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://maria-joset.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0-Fabricación Digital</title>
+      <link>https://maria-joset.github.io/docs/post-1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-1/</guid>
+      <description>Comentario Design Remix Share Repeat</description>
+    </item>
+    
+    <item>
+      <title>1-Planimetrías</title>
+      <link>https://maria-joset.github.io/docs/post-2-planimetr%C3%ADa/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-2-planimetr%C3%ADa/</guid>
+      <description>Encargo 2 Planimetría</description>
+    </item>
+    
+    <item>
+      <title>2-Mecanizado CNC</title>
+      <link>https://maria-joset.github.io/docs/post-3-cnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-3-cnc/</guid>
+      <description>Encargo 3 Mecanizado CNC</description>
+    </item>
+    
+    <item>
+      <title>3-Mecanizado 2.5 Ejes</title>
+      <link>https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-4-mecanizado-2.5-ejes/</guid>
+      <description>Encargo 3 - Mecanizado 2.5 Ejes</description>
+    </item>
+    
+    <item>
+      <title>4-Simulación y Diseño Generativo</title>
+      <link>https://maria-joset.github.io/docs/post-5-simulaci%C3%B3n-y-dise%C3%B1o-generativo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-5-simulaci%C3%B3n-y-dise%C3%B1o-generativo/</guid>
+      <description>Encargo 4 Simulación y Diseño Generativo</description>
+    </item>
+    
+    <item>
+      <title>5-Impresión 3D</title>
+      <link>https://maria-joset.github.io/docs/post-6-impresi%C3%B3n-3d/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/post-6-impresi%C3%B3n-3d/</guid>
+      <description>Encargo 5 Impresión 3D</description>
+    </item>
+    
+    <item>
+      <title>6- Complementario 1</title>
+      <link>https://maria-joset.github.io/docs/complementario-2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/complementario-2/</guid>
+      <description>Post Complementario 1</description>
+    </item>
+    
+    <item>
+      <title>7- Complementario 2</title>
+      <link>https://maria-joset.github.io/docs/complementario-1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/complementario-1/</guid>
+      <description>Post Complementario 2</description>
+    </item>
+    
+    <item>
+      <title>Entrega 1 - Materiales Ecológicos</title>
+      <link>https://maria-joset.github.io/docs/examen-parte1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/examen-parte1/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Entrega 2 - Experimentación N°2 y Molde</title>
+      <link>https://maria-joset.github.io/docs/examen-parte-2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/examen-parte-2/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Examen Final</title>
+      <link>https://maria-joset.github.io/docs/examen-final/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://maria-joset.github.io/docs/examen-final/</guid>
+      <description>Entrega examen final .</description>
+    </item>
+    
+  </channel>
+</rss>
